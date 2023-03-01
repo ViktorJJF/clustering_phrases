@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  rasita:
+    build: .
+    container_name: "clustering_words"
+    ports:
+      - "9000:9000"
